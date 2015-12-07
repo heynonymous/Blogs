@@ -18,7 +18,6 @@ details,
 figcaption,
 figure,
 footer,
-header,
 hgroup,
 main,
 menu,
@@ -27,6 +26,47 @@ section,
 summary {
   display: block;
 }
+#header {
+	display: block;
+	box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
+	color: #ddd;
+	font-size: 13pt;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+
+	#header .top {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+	}
+
+	#header .bottom {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+	
+#profile {
+	margin: 2.5em 0 2em 0;
+		position: relative;
+		text-align: center;
+		width: 100%;
+}
+	#profile h1 {
+			font-size: 1.75em;
+		}
+
+	#profile p {
+		font-size: 1em;
+	}
+
 audio,
 canvas,
 progress,
